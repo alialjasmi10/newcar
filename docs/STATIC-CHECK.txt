@@ -1,0 +1,2 @@
+PASS: OpenStep project, eight targets, seven embedded extensions, schemes, property lists and resources.
+NOT RUN: Swift compiler, Xcode build, simulator, device playback, signing and CarPlay.

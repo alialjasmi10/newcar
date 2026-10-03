@@ -1,0 +1,222 @@
+[
+  {
+    "path": ".github/workflows/unsigned-ipa.yml",
+    "status": "added",
+    "sha256": "12736d8ec936330118a52202539697525b3a97aba1491f7181a21d11daf4fd4d"
+  },
+  {
+    "path": ".gitignore",
+    "status": "added",
+    "sha256": "437b268caf706e1d9e0e0b5e29d9d65cb48f94e87ba6b3e947b10050af4988ea"
+  },
+  {
+    "path": "CarPlaySceneDelegate.swift",
+    "status": "modified",
+    "sha256": "1fcebc4f6615046c26c3e442a9925bc93b65c0d47297d984737c40cd3ca426b2"
+  },
+  {
+    "path": "CarplayWKWebView.swift",
+    "status": "modified",
+    "sha256": "9d83ab0847cbf717665d988cd8bc2617e476618924f3c29f67b619e4d72b3b95"
+  },
+  {
+    "path": "Config.xcconfig",
+    "status": "modified",
+    "sha256": "2df54b077ef4c33311f3163748247405094b0d0051447688097e5341b1231528"
+  },
+  {
+    "path": "README.md",
+    "status": "modified",
+    "sha256": "3fcec911f9baa84f073d28dc6e2d66895f3f2dccef5cd62ba9405379f3ff8513"
+  },
+  {
+    "path": "SelfAirPlayTunnel/PacketTunnelProvider.swift",
+    "status": "modified",
+    "sha256": "e2a5cb7961c74e14a4e5de0d16585f18b0fcc66dfd17ba55692c9102f99f0944"
+  },
+  {
+    "path": "TDS Video/AppDelegate.swift",
+    "status": "modified",
+    "sha256": "993f16f1c2314a19dc5bf463ff8ed900e96f5ba3afc2d5e4db761ed49b51b5c9"
+  },
+  {
+    "path": "TDS Video/AppIntent.swift",
+    "status": "modified",
+    "sha256": "a7d2af4b68c83125a749d13e1c05cd4446914ca7a9057c65aa4d9e8d23df97e3"
+  },
+  {
+    "path": "TDS Video/Hub/HubBrowser.swift",
+    "status": "added",
+    "sha256": "5b9a4d1dab5364d05d7ba125301db4266109a125cc39ef87d898abd74fba2f09"
+  },
+  {
+    "path": "TDS Video/Hub/HubModels.swift",
+    "status": "added",
+    "sha256": "be82bcd6d37d389caed0065799e7dcfee5f4d10226548aea1613d8c959d521ed"
+  },
+  {
+    "path": "TDS Video/Hub/HubNetworking.swift",
+    "status": "added",
+    "sha256": "244f181eb2a751b6cfcd10d16672cbd01ec3e5967b8a899a1f37629fe43087e3"
+  },
+  {
+    "path": "TDS Video/Hub/HubPlayer.swift",
+    "status": "added",
+    "sha256": "1997c00f0bebe057bdf6be22c9c34dca905737875730695a78fb9e4f9fa9e788"
+  },
+  {
+    "path": "TDS Video/Hub/HubStorage.swift",
+    "status": "added",
+    "sha256": "bad5d80f28487b063b3f2973c8960df2211001c1f92008dbc9fead230dce888c"
+  },
+  {
+    "path": "TDS Video/Hub/HubStore.swift",
+    "status": "added",
+    "sha256": "a9c1b176f3c39c158bd999683177fcc99b4d70bef0f26500d5f1d9c5542c37a9"
+  },
+  {
+    "path": "TDS Video/Hub/HubViews.swift",
+    "status": "added",
+    "sha256": "fdf8fc2754b2732f97c1ba76cb64c0e6b1a44f788646ca1f833b98f82c339b64"
+  },
+  {
+    "path": "TDS Video/Info.plist",
+    "status": "modified",
+    "sha256": "06df1351a7af5f2fe47bc5ac75febdceda28e1754071fc433e670fc937da2b9f"
+  },
+  {
+    "path": "TDS Video/MDapiClass.swift",
+    "status": "modified",
+    "sha256": "555fa7ce1fb435f7a5600ff50cdfcb21ca2ddceb3d1a2419c43d515e695ed001"
+  },
+  {
+    "path": "TDS Video/SceneDelegate.swift",
+    "status": "modified",
+    "sha256": "1be8b999a10804a96de82958494e8e0149391c3bd34c501f56f536100a337fb4"
+  },
+  {
+    "path": "TDS Video/TDS Video.entitlements",
+    "status": "modified",
+    "sha256": "08aca800c4bdd96860d7f3f294857b726d015bf6f53ba5f8837d0a9faad7a401"
+  },
+  {
+    "path": "TDS Video/TDSAirPlayReceiverManager.swift",
+    "status": "modified",
+    "sha256": "2d1d9e740f31796c48502305da65d93cdf664219dedad7806c9b9ddbee11dd45"
+  },
+  {
+    "path": "TDS Video/TDSAuth.swift",
+    "status": "modified",
+    "sha256": "d08c46c5b38b9b5055804e8aca944ad8bbae177a7f610d8c8997624297ed96bb"
+  },
+  {
+    "path": "TDS Video/TDSCarPlayControlShared.swift",
+    "status": "modified",
+    "sha256": "430f3e0526ca41cf682fb29e9e1b51d16338f4b04c1265bd6e7b49a4542d7c4a"
+  },
+  {
+    "path": "TDS Video/TDSSelfAirPlayManager.swift",
+    "status": "modified",
+    "sha256": "47d0801ffc7d969dcf6fe1cf8e62f037252cf4ecba3a609c8bb3e6db7a4e7e0d"
+  },
+  {
+    "path": "TDS Video/TDSVideoAPI.swift",
+    "status": "modified",
+    "sha256": "009df81c948dd4bef4fb144d6881345ebd1cbb12ef375e2993baf782f510f105"
+  },
+  {
+    "path": "TDS Video/UserD.swift",
+    "status": "modified",
+    "sha256": "b04f53c358dab43d2b74f646ff10195e35f908e3dd5eb58e75170453c887bc0a"
+  },
+  {
+    "path": "TDS Video/VIews/webview.swift",
+    "status": "modified",
+    "sha256": "efa30cbaa20f02e162eebcc3c822c661532ddfc7e3bd2cbeca780c0ed54340b5"
+  },
+  {
+    "path": "TDS Video/ViewController.swift",
+    "status": "modified",
+    "sha256": "283174022c23febeed107c09bdd5ae83cda4f168d4fee1f3d48193a732cb448e"
+  },
+  {
+    "path": "TDS Video.xcodeproj/project.pbxproj",
+    "status": "modified",
+    "sha256": "480bcbbfe4c7eae60a6cecb981ba227ec14e9a05e3e6e364b042fd485dac8dc5"
+  },
+  {
+    "path": "TDS Video.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved",
+    "status": "modified",
+    "sha256": "175cf42dee99c6875de85efa79f584baecfcc5de42a6222707babff56a749f6a"
+  },
+  {
+    "path": "TDS Video.xcodeproj/xcshareddata/xcschemes/TDS Video.xcscheme",
+    "status": "modified",
+    "sha256": "7310234b6946b1bd407275eaf99d858f9dc051f56abc19d61b99fd44808bc7bf"
+  },
+  {
+    "path": "TDSCarPlayControlsWidget/TDSCarPlayControlsWidget.entitlements",
+    "status": "modified",
+    "sha256": "40f501032c6be9b03bc5ad78a3e4af21a124efb59c5365a91fa1cdc75adff89b"
+  },
+  {
+    "path": "UploadVideo/ShareViewController.swift",
+    "status": "modified",
+    "sha256": "71bcedc36e6a03a0d6b624985ddbbdcd9c98602655c8256afd2d975b8f373dfa"
+  },
+  {
+    "path": "UploadVideo/UploadVideo.entitlements",
+    "status": "modified",
+    "sha256": "40f501032c6be9b03bc5ad78a3e4af21a124efb59c5365a91fa1cdc75adff89b"
+  },
+  {
+    "path": "docs/AUDIT.md",
+    "status": "added",
+    "sha256": "40acb34b4ff1134c48c2309b1dabd7addcde68f871f2abaa5960f1ab6a6e2303"
+  },
+  {
+    "path": "docs/IPA-METADATA.json",
+    "status": "added",
+    "sha256": "813380a922e979e661266b13ab885a811e04b4987e4a7ced172ad765bc8c4dd7"
+  },
+  {
+    "path": "docs/TDS-ORIGINAL-README.md",
+    "status": "added",
+    "sha256": "4c925da693b64ac7cf991005fa804a8cc7a76d4e3dba071aa11db3209a9572e0"
+  },
+  {
+    "path": "docs/TESTING.md",
+    "status": "added",
+    "sha256": "b4e72d9e03756d64e20acbe8ad3084327a2286e3d64579ae5e305fd1106da594"
+  },
+  {
+    "path": "entitlements.plist",
+    "status": "modified",
+    "sha256": "8fae00b4fb33388e5c27fede7d20bb57a329b540915869d245d66d2702ab24fb"
+  },
+  {
+    "path": "scripts/build-unsigned.sh",
+    "status": "added",
+    "sha256": "bdb7ab70753b095b030a519c3e0bc276f42134d39133cc303900795b330acdf3"
+  },
+  {
+    "path": "scripts/static-check.py",
+    "status": "added",
+    "sha256": "84c5d5aa3e544155152039a89bd0be83c3c27a6937984453036e37a3ce713f05"
+  },
+  {
+    "path": "scripts/test-parsers.sh",
+    "status": "added",
+    "sha256": "306ef610f04403bbaa4045a2a7adc56619f7d6c95ef03ee9913191056438e7ab"
+  },
+  {
+    "path": "scripts/verify-product.py",
+    "status": "added",
+    "sha256": "1251b9e7a52372db1e18201817e9f240bf5c8ce6277ac3c05a6c8a29aadafa25"
+  },
+  {
+    "path": "tests/ParserTests.swift",
+    "status": "added",
+    "sha256": "76dfe97947a4eea0e51df43d127e9cc74a82ac74129acb38cd8571c4454b13ac"
+  }
+]

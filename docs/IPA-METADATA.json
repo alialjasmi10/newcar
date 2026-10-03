@@ -1,0 +1,100 @@
+[
+  {
+    "CFBundleIdentifier": "net.thomasdye.TDS-Video4.ScreenRecSetupUI",
+    "CFBundleShortVersionString": "1.0",
+    "CFBundleVersion": "1",
+    "MinimumOSVersion": "16.5",
+    "CFBundleExecutable": "ScreenRecSetupUI",
+    "NSExtension": {
+      "NSExtensionAttributes": {
+        "NSExtensionActivationRule": {
+          "NSExtensionActivationSupportsReplayKitStreaming": true
+        }
+      },
+      "NSExtensionPointIdentifier": "com.apple.broadcast-services-setupui",
+      "NSExtensionPrincipalClass": "ScreenRecSetupUI.BroadcastSetupViewController"
+    },
+    "bundle": "Payload/TDS Video.app/PlugIns/ScreenRecSetupUI.appex/",
+    "cryptid": 0
+  },
+  {
+    "CFBundleIdentifier": "net.thomasdye.TDS-Video4.ScreenRec",
+    "CFBundleShortVersionString": "1.0",
+    "CFBundleVersion": "1",
+    "MinimumOSVersion": "16.5",
+    "CFBundleExecutable": "ScreenRec",
+    "NSExtension": {
+      "NSExtensionPointIdentifier": "com.apple.broadcast-services-upload",
+      "NSExtensionPrincipalClass": "ScreenRec.SampleHandler",
+      "RPBroadcastProcessMode": "RPBroadcastProcessModeSampleBuffer"
+    },
+    "bundle": "Payload/TDS Video.app/PlugIns/ScreenRec.appex/",
+    "cryptid": 0
+  },
+  {
+    "CFBundleIdentifier": "net.thomasdye.TDS-Video4.UploadVideo",
+    "CFBundleShortVersionString": "1.0",
+    "CFBundleVersion": "1",
+    "MinimumOSVersion": "16.5",
+    "CFBundleExecutable": "UploadVideo",
+    "NSExtension": {
+      "NSExtensionAttributes": {
+        "NSExtensionActivationRule": {
+          "NSExtensionActivationSupportsWebURLWithMaxCount": 1
+        }
+      },
+      "NSExtensionMainStoryboard": "MainInterface",
+      "NSExtensionPointIdentifier": "com.apple.share-services"
+    },
+    "bundle": "Payload/TDS Video.app/PlugIns/UploadVideo.appex/",
+    "cryptid": 0
+  },
+  {
+    "CFBundleIdentifier": "net.thomasdye.TDS-Video4.Carplayintent",
+    "CFBundleShortVersionString": "1.0",
+    "CFBundleVersion": "1",
+    "MinimumOSVersion": "16.5",
+    "CFBundleExecutable": "Carplayintent",
+    "NSExtension": {
+      "NSExtensionAttributes": {
+        "IntentsRestrictedWhileLocked": [],
+        "IntentsSupported": [
+          "INSetMessageAttributeIntent",
+          "INSearchForMessagesIntent",
+          "INSendMessageIntent"
+        ]
+      },
+      "NSExtensionPointIdentifier": "com.apple.intents-service",
+      "NSExtensionPrincipalClass": "Carplayintent.IntentHandler"
+    },
+    "bundle": "Payload/TDS Video.app/PlugIns/Carplayintent.appex/",
+    "cryptid": 0
+  },
+  {
+    "CFBundleIdentifier": "net.thomasdye.TDS-Video4.CarplayintentUI",
+    "CFBundleShortVersionString": "1.0",
+    "CFBundleVersion": "1",
+    "MinimumOSVersion": "16.5",
+    "CFBundleExecutable": "CarplayintentUI",
+    "NSExtension": {
+      "NSExtensionAttributes": {
+        "IntentsSupported": [
+          "INSendMessageIntent"
+        ]
+      },
+      "NSExtensionMainStoryboard": "MainInterface",
+      "NSExtensionPointIdentifier": "com.apple.intents-ui-service"
+    },
+    "bundle": "Payload/TDS Video.app/PlugIns/CarplayintentUI.appex/",
+    "cryptid": 0
+  },
+  {
+    "CFBundleIdentifier": "net.thomasdye.TDS-Video4",
+    "CFBundleShortVersionString": "1.2",
+    "CFBundleVersion": "5",
+    "MinimumOSVersion": "17.0",
+    "CFBundleExecutable": "TDS Video",
+    "bundle": "Payload/TDS Video.app/",
+    "cryptid": 0
+  }
+]
