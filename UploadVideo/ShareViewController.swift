@@ -1,0 +1,135 @@
+//
+//  ShareViewController.swift
+//  UploadVideo
+//
+//  Created by Thomas Dye on 05/08/2024.
+//
+
+import UIKit
+import Social
+import MobileCoreServices
+import AVFoundation
+import UniformTypeIdentifiers
+
+class ShareViewController: SLComposeServiceViewController {
+
+    override func isContentValid() -> Bool {
+        return true
+    }
+
+    override func didSelectPost() {
+        guard let item = extensionContext?.inputItems.first as? NSExtensionItem,
+              let attachments = item.attachments else {
+            return
+        }
+
+        for attachment in attachments {
+            print(attachment)
+            if attachment.hasItemConformingToTypeIdentifier(UTType.url.identifier) {
+                handleURL(attachment: attachment)
+            } else if attachment.hasItemConformingToTypeIdentifier(UTType.plainText.identifier) {
+                handleText(attachment: attachment)
+            } else if attachment.hasItemConformingToTypeIdentifier(UTType.movie.identifier) {
+                handleVideo(attachment: attachment)
+            }
+        }
+    }
+
+    private func handleURL(attachment: NSItemProvider) {
+        attachment.loadItem(forTypeIdentifier: UTType.url.identifier as String, options: nil) { (item, error) in
+            if let url = item as? URL {
+                self.saveURL(url: url)
+            }
+        }
+    }
+
+    private func handleText(attachment: NSItemProvider) {
+        attachment.loadItem(forTypeIdentifier: UTType.plainText.identifier, options: nil) { (item, error) in
+            guard
+                let text = item as? String,
+                let url = URL(string: text.trimmingCharacters(in: .whitespacesAndNewlines))
+            else { return }
+
+            self.saveURL(url: url)
+        }
+    }
+
+    private func handleVideo(attachment: NSItemProvider) {
+        attachment.loadItem(forTypeIdentifier: UTType.movie.identifier as String, options: nil) { (item, error) in
+            if let url = item as? URL {
+                self.saveVideo(url: url)
+            }
+        }
+    }
+
+    private func saveURL(url: URL) {
+        let sharedDefaults = UserDefaults(suiteName: "group.com.ali.carcasthub.shared")
+        sharedDefaults?.set(url.absoluteString, forKey: "TDVideo-SharedURL")
+
+        // Post cross-process notification
+               let notificationName = "group.com.ali.carcasthub.shared.TDVideo-SharedURL"
+               CFNotificationCenterPostNotification(
+                   CFNotificationCenterGetDarwinNotifyCenter(),
+                   CFNotificationName(notificationName as CFString),
+                   nil,
+                   nil,
+                   true
+               )
+
+        // Complete request to close extension
+        self.extensionContext?.completeRequest(returningItems: nil, completionHandler: nil)
+    }
+
+
+
+
+    private func saveVideo(url: URL) {
+        let fileManager = FileManager.default
+        guard let containerURL = fileManager.containerURL(forSecurityApplicationGroupIdentifier: "group.com.ali.carcasthub.shared") else {
+            saveURL(url: url)
+            return
+        }
+
+        let videosDirectory = containerURL.appendingPathComponent("SharedVideos", isDirectory: true)
+
+        do {
+            try fileManager.createDirectory(at: videosDirectory, withIntermediateDirectories: true)
+            let destinationURL = videosDirectory
+                .appendingPathComponent(UUID().uuidString)
+                .appendingPathExtension(url.pathExtension.isEmpty ? "mov" : url.pathExtension)
+
+            if fileManager.fileExists(atPath: destinationURL.path) {
+                try fileManager.removeItem(at: destinationURL)
+            }
+
+            try fileManager.copyItem(at: url, to: destinationURL)
+            saveURL(url: destinationURL)
+        } catch {
+            print("Failed to copy shared video: \(error.localizedDescription)")
+            saveURL(url: url)
+        }
+    }
+    private func openAppWithURL(url: URL) {
+        let encodedURL = url.absoluteString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+        let scheme = "TDSVideo://shared-url?url=\(encodedURL)"
+
+        if let appURL = URL(string: scheme) {
+            DispatchQueue.main.async {
+                self.extensionContext?.open(appURL, completionHandler: { success in
+                    if success {
+                        print("Opened main app successfully")
+                    } else {
+                        print("Failed to open main app")
+                    }
+                })
+            }
+        } else {
+            print("Media event (URL omitted)")
+        }
+    }
+
+
+    override func configurationItems() -> [Any]! {
+        return []
+    }
+}

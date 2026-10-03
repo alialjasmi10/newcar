@@ -1,0 +1,1581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 74;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2A2A2A12F10000100000001 /* SelfAirPlayTunnel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A2A2A2A12F10000100000003 /* SelfAirPlayTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2C2D0B54C6848E0E434BECFF /* TDSCarPlayControlsWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E3AA5FBEFEF12C032F964D59 /* TDSCarPlayControlsWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A1A1A1A12F00000100000001 /* AirPlayReceiver in Frameworks */ = {isa = PBXBuildFile; productRef = A1A1A1A12F00000100000003 /* AirPlayReceiver */; };
+		A83FC8C7ACC2C7AF1E8F9FBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA98FA29EA555E83C45AADAE /* Foundation.framework */; };
+		B18C5CD1BC31AFFD9BDC5B3B /* ../TDS Video/TDSCarPlayControlShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C5FAFFB12297CEF104A69C /* ../TDS Video/TDSCarPlayControlShared.swift */; };
+		DCEA2CF9263DBF24CBF3A80F /* TDSCarPlayControlsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC028B761D645CE91C64D9 /* TDSCarPlayControlsWidget.swift */; };
+		E92F0F322DABD36700ACB85D /* CarPlaySafari.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92F0F312DABD34F00ACB85D /* CarPlaySafari.swift */; };
+		E9449D252C616DAF00EE64DF /* CarplayWKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9449D242C616DAF00EE64DF /* CarplayWKWebView.swift */; };
+		E96BB7362D32872C007BE3A8 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E96BB7352D32872C007BE3A8 /* ReplayKit.framework */; };
+		E96BB7402D32872D007BE3A8 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E96BB7352D32872C007BE3A8 /* ReplayKit.framework */; };
+		E96BB7422D32872D007BE3A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E96BB7412D32872D007BE3A8 /* UIKit.framework */; };
+		E96BB7492D32872D007BE3A8 /* ScreenRecSetupUI.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E96BB73F2D32872D007BE3A8 /* ScreenRecSetupUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E96BB74C2D32872D007BE3A8 /* ScreenRec.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E96BB7342D32872C007BE3A8 /* ScreenRec.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E98E7DCC2D8DF6FB008330D0 /* CustomWebViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98E7DCB2D8DF6F5008330D0 /* CustomWebViews.swift */; };
+		E9B01D3E2DAFD0E4008CDD3F /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = E9B01D3D2DAFD0E4008CDD3F /* Swifter */; };
+		E9B01D412DAFD57D008CDD3F /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = E9B01D402DAFD57D008CDD3F /* Swifter */; };
+		E9B01EC82DB094DF008CDD3F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E9B01EC72DB094DF008CDD3F /* README.md */; };
+		E9B01ECC2DB0994B008CDD3F /* CarPlayAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B01ECB2DB0994B008CDD3F /* CarPlayAccess.swift */; };
+		E9B371A02C5D85D60013612E /* CarPlaySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B3719F2C5D85D60013612E /* CarPlaySceneDelegate.swift */; };
+		E9B371A82C5D86080013612E /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B371A72C5D86080013612E /* Intents.framework */; };
+		E9B371B32C5D86080013612E /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B371B22C5D86080013612E /* IntentsUI.framework */; };
+		E9B371BD2C5D86080013612E /* CarplayintentUI.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E9B371B12C5D86080013612E /* CarplayintentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E9B371C02C5D86080013612E /* Carplayintent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E9B371A52C5D86080013612E /* Carplayintent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E9B5432B2C60EEE700BCD407 /* CustomVideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B5432A2C60EEE700BCD407 /* CustomVideoPlayerViewController.swift */; };
+		E9D0B87F2E3D7F2C008C70E9 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */; };
+		E9D0B8812E3D7F3B008C70E9 /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9D0B8802E3D7F3B008C70E9 /* File.txt */; };
+		E9D0B8822E3D8021008C70E9 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */; };
+		E9D0B8832E3D8021008C70E9 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */; };
+		E9D0B8842E3D8021008C70E9 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */; };
+		E9D0B8852E3D8021008C70E9 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */; };
+		E9D0B8862E3D8021008C70E9 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */; };
+		E9D5135A2D79B5D300B8A8B3 /* CarPlayViewContollerProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D513592D79B5C800B8A8B3 /* CarPlayViewContollerProtocal.swift */; };
+		E9E926C12D934C5C00762912 /* UploadVideo.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E9449D142C616C4100EE64DF /* UploadVideo.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2A2A2A12F10000100000002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9B371172C5D7B830013612E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A2A2A12F10000100000008;
+			remoteInfo = SelfAirPlayTunnel;
+		};
+		7D4E270682EB9064EFEC4035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9B371172C5D7B830013612E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 692E1E2EF14B5D649215BA8A;
+			remoteInfo = TDSCarPlayControlsWidget;
+		};
+		E96BB7472D32872D007BE3A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9B371172C5D7B830013612E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96BB73E2D32872C007BE3A8;
+			remoteInfo = ScreenRecSetupUI;
+		};
+		E96BB74A2D32872D007BE3A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9B371172C5D7B830013612E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96BB7332D32872C007BE3A8;
+			remoteInfo = ScreenRec;
+		};
+		E9B371BB2C5D86080013612E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9B371172C5D7B830013612E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9B371B02C5D86080013612E;
+			remoteInfo = CarplayintentUI;
+		};
+		E9B371BE2C5D86080013612E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9B371172C5D7B830013612E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9B371A42C5D86080013612E;
+			remoteInfo = Carplayintent;
+		};
+		E9E926C22D934C5C00762912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9B371172C5D7B830013612E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9449D132C616C4100EE64DF;
+			remoteInfo = UploadVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E9B371CA2C5D86080013612E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A2A2A2A12F10000100000001 /* SelfAirPlayTunnel.appex in Embed Foundation Extensions */,
+				E9E926C12D934C5C00762912 /* UploadVideo.appex in Embed Foundation Extensions */,
+				E9B371BD2C5D86080013612E /* CarplayintentUI.appex in Embed Foundation Extensions */,
+				E9B371C02C5D86080013612E /* Carplayintent.appex in Embed Foundation Extensions */,
+				E96BB7492D32872D007BE3A8 /* ScreenRecSetupUI.appex in Embed Foundation Extensions */,
+				E96BB74C2D32872D007BE3A8 /* ScreenRec.appex in Embed Foundation Extensions */,
+				2C2D0B54C6848E0E434BECFF /* TDSCarPlayControlsWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A2A2A2A12F10000100000003 /* SelfAirPlayTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SelfAirPlayTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C5FAFFB12297CEF104A69C /* ../TDS Video/TDSCarPlayControlShared.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "../TDS Video/TDSCarPlayControlShared.swift"; sourceTree = "<group>"; };
+		1EAEE49E4CE7E2CA8425235D /* TDSCarPlayControlsWidget.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = TDSCarPlayControlsWidget.entitlements; sourceTree = "<group>"; };
+		30EC028B761D645CE91C64D9 /* TDSCarPlayControlsWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TDSCarPlayControlsWidget.swift; sourceTree = "<group>"; };
+		6554094B523764805CD212B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA98FA29EA555E83C45AADAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E3AA5FBEFEF12C032F964D59 /* TDSCarPlayControlsWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TDSCarPlayControlsWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92F0F312DABD34F00ACB85D /* CarPlaySafari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlaySafari.swift; sourceTree = "<group>"; };
+		E9449D142C616C4100EE64DF /* UploadVideo.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = UploadVideo.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9449D242C616DAF00EE64DF /* CarplayWKWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarplayWKWebView.swift; sourceTree = "<group>"; };
+		E96BB7342D32872C007BE3A8 /* ScreenRec.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ScreenRec.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96BB7352D32872C007BE3A8 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		E96BB73F2D32872D007BE3A8 /* ScreenRecSetupUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ScreenRecSetupUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96BB7412D32872D007BE3A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E98E7DCB2D8DF6F5008330D0 /* CustomWebViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWebViews.swift; sourceTree = "<group>"; };
+		E9B01EC72DB094DF008CDD3F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E9B01ECB2DB0994B008CDD3F /* CarPlayAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayAccess.swift; sourceTree = "<group>"; };
+		E9B3711F2C5D7B830013612E /* TDS Video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TDS Video.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B3719F2C5D85D60013612E /* CarPlaySceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlaySceneDelegate.swift; sourceTree = "<group>"; };
+		E9B371A52C5D86080013612E /* Carplayintent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Carplayintent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B371A72C5D86080013612E /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		E9B371B12C5D86080013612E /* CarplayintentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CarplayintentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B371B22C5D86080013612E /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		E9B5432A2C60EEE700BCD407 /* CustomVideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayerViewController.swift; sourceTree = "<group>"; };
+		E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		E9D0B8802E3D7F3B008C70E9 /* File.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
+		E9D513592D79B5C800B8A8B3 /* CarPlayViewContollerProtocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayViewContollerProtocal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A2A2A2A12F1000010000000D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				SelfAirPlayTunnel.entitlements,
+			);
+			target = A2A2A2A12F10000100000008 /* SelfAirPlayTunnel */;
+		};
+		E9449D222C616C4100EE64DF /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				/Localized/MainInterface.storyboard,
+				Info.plist,
+			);
+			target = E9449D132C616C4100EE64DF /* UploadVideo */;
+		};
+		E96BB7502D32872D007BE3A8 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E96BB73E2D32872C007BE3A8 /* ScreenRecSetupUI */;
+		};
+		E96BB7542D32872D007BE3A8 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E96BB7332D32872C007BE3A8 /* ScreenRec */;
+		};
+		E96BB78B2D3297BA007BE3A8 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				HTTPServer.swift,
+				"Transcoding/Extensions/Data+Extensions.swift",
+				"Transcoding/Extensions/VTCompressionSession+Extensions.swift",
+				"Transcoding/Extensions/VTDecompressionSession+Extensions.swift",
+				Transcoding/NALUs/H264NALU.swift,
+				Transcoding/NALUs/HEVCNALU.swift,
+				Transcoding/VideoDecoder.swift,
+				"Transcoding/VideoDecoder+Config.swift",
+				Transcoding/VideoDecoderAnnexBAdaptor.swift,
+				Transcoding/VideoEncoder.swift,
+				"Transcoding/VideoEncoder+Config.swift",
+				Transcoding/VideoEncoderAnnexBAdaptor.swift,
+				Transcoding/VideoTranscoderError.swift,
+			);
+			target = E96BB7332D32872C007BE3A8 /* ScreenRec */;
+		};
+		E96BB78C2D3297BA007BE3A8 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Transcoding/Extensions/Data+Extensions.swift",
+				"Transcoding/Extensions/VTCompressionSession+Extensions.swift",
+				"Transcoding/Extensions/VTDecompressionSession+Extensions.swift",
+				Transcoding/NALUs/H264NALU.swift,
+				Transcoding/NALUs/HEVCNALU.swift,
+				Transcoding/VideoDecoder.swift,
+				"Transcoding/VideoDecoder+Config.swift",
+				Transcoding/VideoDecoderAnnexBAdaptor.swift,
+				Transcoding/VideoEncoder.swift,
+				"Transcoding/VideoEncoder+Config.swift",
+				Transcoding/VideoEncoderAnnexBAdaptor.swift,
+				Transcoding/VideoTranscoderError.swift,
+			);
+			target = E96BB73E2D32872C007BE3A8 /* ScreenRecSetupUI */;
+		};
+		E9B371472C5D7B850013612E /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				/Localized/LaunchScreen.storyboard,
+				/Localized/Main.storyboard,
+				Info.plist,
+			);
+			target = E9B3711E2C5D7B830013612E /* TDS Video */;
+		};
+		E9B371C42C5D86080013612E /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				/Localized/MainInterface.storyboard,
+				Info.plist,
+			);
+			target = E9B371B02C5D86080013612E /* CarplayintentUI */;
+		};
+		E9B371C92C5D86080013612E /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E9B371A42C5D86080013612E /* Carplayintent */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		E9449D232C616C4100EE64DF /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = E9449D122C616C4100EE64DF /* Resources */;
+			membershipExceptions = (
+				Base.lproj/MainInterface.storyboard,
+			);
+		};
+		E9B3714B2C5D7B850013612E /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = E9B3711D2C5D7B830013612E /* Resources */;
+			membershipExceptions = (
+				Base.lproj/LaunchScreen.storyboard,
+				Base.lproj/Main.storyboard,
+			);
+		};
+		E9B371C52C5D86080013612E /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = E9B371AF2C5D86080013612E /* Resources */;
+			membershipExceptions = (
+				Base.lproj/MainInterface.storyboard,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A2A2A2A12F10000100000004 /* SelfAirPlayTunnel */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (A2A2A2A12F1000010000000D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = SelfAirPlayTunnel; sourceTree = "<group>"; };
+		E9449D152C616C4100EE64DF /* UploadVideo */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E9449D222C616C4100EE64DF /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E9449D232C616C4100EE64DF /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = UploadVideo; sourceTree = "<group>"; };
+		E96BB7372D32872C007BE3A8 /* ScreenRec */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E96BB7542D32872D007BE3A8 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ScreenRec; sourceTree = "<group>"; };
+		E96BB7432D32872D007BE3A8 /* ScreenRecSetupUI */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E96BB7502D32872D007BE3A8 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ScreenRecSetupUI; sourceTree = "<group>"; };
+		E9B371212C5D7B830013612E /* TDS Video */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E9B371472C5D7B850013612E /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E9B3714B2C5D7B850013612E /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */, E96BB78B2D3297BA007BE3A8 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E96BB78C2D3297BA007BE3A8 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "TDS Video"; sourceTree = "<group>"; };
+		E9B371A92C5D86080013612E /* Carplayintent */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E9B371C92C5D86080013612E /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Carplayintent; sourceTree = "<group>"; };
+		E9B371B42C5D86080013612E /* CarplayintentUI */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E9B371C42C5D86080013612E /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E9B371C52C5D86080013612E /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = CarplayintentUI; sourceTree = "<group>"; };
+		E9D0B8902E3D9AA0008C70E9 /* WebBrowser */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = WebBrowser; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2A2A2A12F10000100000005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E289C13AC99CCD801AEEFED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83FC8C7ACC2C7AF1E8F9FBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9449D112C616C4100EE64DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96BB7312D32872C007BE3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96BB7362D32872C007BE3A8 /* ReplayKit.framework in Frameworks */,
+				E9B01D412DAFD57D008CDD3F /* Swifter in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96BB73C2D32872C007BE3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96BB7402D32872D007BE3A8 /* ReplayKit.framework in Frameworks */,
+				E96BB7422D32872D007BE3A8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B3711C2C5D7B830013612E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A1A1A12F00000100000001 /* AirPlayReceiver in Frameworks */,
+				E9B01D3E2DAFD0E4008CDD3F /* Swifter in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B371A22C5D86080013612E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B371A82C5D86080013612E /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B371AE2C5D86080013612E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B371B32C5D86080013612E /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AE7DD255BDD892BE19A21B6 /* TDSCarPlayControlsWidget */ = {
+			isa = PBXGroup;
+			children = (
+				30EC028B761D645CE91C64D9 /* TDSCarPlayControlsWidget.swift */,
+				19C5FAFFB12297CEF104A69C /* ../TDS Video/TDSCarPlayControlShared.swift */,
+				6554094B523764805CD212B4 /* Info.plist */,
+				1EAEE49E4CE7E2CA8425235D /* TDSCarPlayControlsWidget.entitlements */,
+			);
+			path = TDSCarPlayControlsWidget;
+			sourceTree = "<group>";
+		};
+		4DA382AD44C7A8D9D2DF10A0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA98FA29EA555E83C45AADAE /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E9B371162C5D7B830013612E = {
+			isa = PBXGroup;
+			children = (
+				A2A2A2A12F10000100000004 /* SelfAirPlayTunnel */,
+				E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */,
+				E9D0B8802E3D7F3B008C70E9 /* File.txt */,
+				E9B01EC72DB094DF008CDD3F /* README.md */,
+				E9B01ECB2DB0994B008CDD3F /* CarPlayAccess.swift */,
+				E9D513592D79B5C800B8A8B3 /* CarPlayViewContollerProtocal.swift */,
+				E9449D242C616DAF00EE64DF /* CarplayWKWebView.swift */,
+				E92F0F312DABD34F00ACB85D /* CarPlaySafari.swift */,
+				E9B3719F2C5D85D60013612E /* CarPlaySceneDelegate.swift */,
+				E9B5432A2C60EEE700BCD407 /* CustomVideoPlayerViewController.swift */,
+				E98E7DCB2D8DF6F5008330D0 /* CustomWebViews.swift */,
+				E9B371212C5D7B830013612E /* TDS Video */,
+				E9B371A92C5D86080013612E /* Carplayintent */,
+				E9B371B42C5D86080013612E /* CarplayintentUI */,
+				E9449D152C616C4100EE64DF /* UploadVideo */,
+				E96BB7372D32872C007BE3A8 /* ScreenRec */,
+				E96BB7432D32872D007BE3A8 /* ScreenRecSetupUI */,
+				E9D0B8902E3D9AA0008C70E9 /* WebBrowser */,
+				E9B371A62C5D86080013612E /* Frameworks */,
+				E9B371202C5D7B830013612E /* Products */,
+				1AE7DD255BDD892BE19A21B6 /* TDSCarPlayControlsWidget */,
+			);
+			sourceTree = "<group>";
+		};
+		E9B371202C5D7B830013612E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2A2A2A12F10000100000003 /* SelfAirPlayTunnel.appex */,
+				E9B3711F2C5D7B830013612E /* TDS Video.app */,
+				E9B371A52C5D86080013612E /* Carplayintent.appex */,
+				E9B371B12C5D86080013612E /* CarplayintentUI.appex */,
+				E9449D142C616C4100EE64DF /* UploadVideo.appex */,
+				E96BB7342D32872C007BE3A8 /* ScreenRec.appex */,
+				E96BB73F2D32872D007BE3A8 /* ScreenRecSetupUI.appex */,
+				E3AA5FBEFEF12C032F964D59 /* TDSCarPlayControlsWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9B371A62C5D86080013612E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9B371A72C5D86080013612E /* Intents.framework */,
+				E9B371B22C5D86080013612E /* IntentsUI.framework */,
+				E96BB7352D32872C007BE3A8 /* ReplayKit.framework */,
+				E96BB7412D32872D007BE3A8 /* UIKit.framework */,
+				4DA382AD44C7A8D9D2DF10A0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2A2A2A12F10000100000008 /* SelfAirPlayTunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A2A2A12F10000100000009 /* Build configuration list for PBXNativeTarget "SelfAirPlayTunnel" */;
+			buildPhases = (
+				A2A2A2A12F10000100000006 /* Sources */,
+				A2A2A2A12F10000100000005 /* Frameworks */,
+				A2A2A2A12F10000100000007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A2A2A2A12F10000100000004 /* SelfAirPlayTunnel */,
+			);
+			name = SelfAirPlayTunnel;
+			productName = SelfAirPlayTunnel;
+			productReference = A2A2A2A12F10000100000003 /* SelfAirPlayTunnel.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		692E1E2EF14B5D649215BA8A /* TDSCarPlayControlsWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04FA84B6A0425A18FC1257A /* Build configuration list for PBXNativeTarget "TDSCarPlayControlsWidget" */;
+			buildPhases = (
+				18023725E7CB01C6242A9E87 /* Sources */,
+				0E289C13AC99CCD801AEEFED /* Frameworks */,
+				817AC70FA1CBF929A2F8505F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDSCarPlayControlsWidget;
+			productName = TDSCarPlayControlsWidget;
+			productReference = E3AA5FBEFEF12C032F964D59 /* TDSCarPlayControlsWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E9449D132C616C4100EE64DF /* UploadVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9449D1F2C616C4100EE64DF /* Build configuration list for PBXNativeTarget "UploadVideo" */;
+			buildPhases = (
+				E9449D102C616C4100EE64DF /* Sources */,
+				E9449D112C616C4100EE64DF /* Frameworks */,
+				E9449D122C616C4100EE64DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E9449D152C616C4100EE64DF /* UploadVideo */,
+			);
+			name = UploadVideo;
+			productName = UploadVideo;
+			productReference = E9449D142C616C4100EE64DF /* UploadVideo.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E96BB7332D32872C007BE3A8 /* ScreenRec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96BB7512D32872D007BE3A8 /* Build configuration list for PBXNativeTarget "ScreenRec" */;
+			buildPhases = (
+				E96BB7302D32872C007BE3A8 /* Sources */,
+				E96BB7312D32872C007BE3A8 /* Frameworks */,
+				E96BB7322D32872C007BE3A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E96BB7372D32872C007BE3A8 /* ScreenRec */,
+			);
+			name = ScreenRec;
+			packageProductDependencies = (
+				E9B01D402DAFD57D008CDD3F /* Swifter */,
+			);
+			productName = ScreenRec;
+			productReference = E96BB7342D32872C007BE3A8 /* ScreenRec.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E96BB73E2D32872C007BE3A8 /* ScreenRecSetupUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96BB74D2D32872D007BE3A8 /* Build configuration list for PBXNativeTarget "ScreenRecSetupUI" */;
+			buildPhases = (
+				E96BB73B2D32872C007BE3A8 /* Sources */,
+				E96BB73C2D32872C007BE3A8 /* Frameworks */,
+				E96BB73D2D32872C007BE3A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E96BB7432D32872D007BE3A8 /* ScreenRecSetupUI */,
+			);
+			name = ScreenRecSetupUI;
+			productName = ScreenRecSetupUI;
+			productReference = E96BB73F2D32872D007BE3A8 /* ScreenRecSetupUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E9B3711E2C5D7B830013612E /* TDS Video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B371482C5D7B850013612E /* Build configuration list for PBXNativeTarget "TDS Video" */;
+			buildPhases = (
+				E9B3711B2C5D7B830013612E /* Sources */,
+				E9B3711C2C5D7B830013612E /* Frameworks */,
+				E9B3711D2C5D7B830013612E /* Resources */,
+				E9B371CA2C5D86080013612E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2A2A2A12F1000010000000C /* PBXTargetDependency */,
+				E9B371BC2C5D86080013612E /* PBXTargetDependency */,
+				E9B371BF2C5D86080013612E /* PBXTargetDependency */,
+				E96BB7482D32872D007BE3A8 /* PBXTargetDependency */,
+				E96BB74B2D32872D007BE3A8 /* PBXTargetDependency */,
+				E9E926C32D934C5C00762912 /* PBXTargetDependency */,
+				564EDD19242369F0C2A607A7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E9B371212C5D7B830013612E /* TDS Video */,
+				E9D0B8902E3D9AA0008C70E9 /* WebBrowser */,
+			);
+			name = "TDS Video";
+			packageProductDependencies = (
+				A1A1A1A12F00000100000003 /* AirPlayReceiver */,
+				E9B01D3D2DAFD0E4008CDD3F /* Swifter */,
+			);
+			productName = "TDS McdonaldsApi";
+			productReference = E9B3711F2C5D7B830013612E /* TDS Video.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9B371A42C5D86080013612E /* Carplayintent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B371C62C5D86080013612E /* Build configuration list for PBXNativeTarget "Carplayintent" */;
+			buildPhases = (
+				E9B371A12C5D86080013612E /* Sources */,
+				E9B371A22C5D86080013612E /* Frameworks */,
+				E9B371A32C5D86080013612E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E9B371A92C5D86080013612E /* Carplayintent */,
+			);
+			name = Carplayintent;
+			productName = Carplayintent;
+			productReference = E9B371A52C5D86080013612E /* Carplayintent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E9B371B02C5D86080013612E /* CarplayintentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B371C12C5D86080013612E /* Build configuration list for PBXNativeTarget "CarplayintentUI" */;
+			buildPhases = (
+				E9B371AD2C5D86080013612E /* Sources */,
+				E9B371AE2C5D86080013612E /* Frameworks */,
+				E9B371AF2C5D86080013612E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E9B371B42C5D86080013612E /* CarplayintentUI */,
+			);
+			name = CarplayintentUI;
+			productName = CarplayintentUI;
+			productReference = E9B371B12C5D86080013612E /* CarplayintentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9B371172C5D7B830013612E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A2A2A2A12F10000100000008 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E9449D132C616C4100EE64DF = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E96BB7332D32872C007BE3A8 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E96BB73E2D32872C007BE3A8 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E9B3711E2C5D7B830013612E = {
+						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
+					};
+					E9B371A42C5D86080013612E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E9B371B02C5D86080013612E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = E9B3711A2C5D7B830013612E /* Build configuration list for PBXProject "TDS Video" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9B371162C5D7B830013612E;
+			packageReferences = (
+				A1A1A1A12F00000100000002 /* XCRemoteSwiftPackageReference "IOS-airplay-package" */,
+				E9B01D3A2DAFD055008CDD3F /* XCRemoteSwiftPackageReference "swifter" */,
+			);
+			preferredProjectObjectVersion = 60;
+			productRefGroup = E9B371202C5D7B830013612E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2A2A2A12F10000100000008 /* SelfAirPlayTunnel */,
+				E9B3711E2C5D7B830013612E /* TDS Video */,
+				E9B371A42C5D86080013612E /* Carplayintent */,
+				E9B371B02C5D86080013612E /* CarplayintentUI */,
+				E9449D132C616C4100EE64DF /* UploadVideo */,
+				E96BB7332D32872C007BE3A8 /* ScreenRec */,
+				E96BB73E2D32872C007BE3A8 /* ScreenRecSetupUI */,
+				692E1E2EF14B5D649215BA8A /* TDSCarPlayControlsWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2A2A2A12F10000100000007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817AC70FA1CBF929A2F8505F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9449D122C616C4100EE64DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D0B8842E3D8021008C70E9 /* Config.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96BB7322D32872C007BE3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D0B8852E3D8021008C70E9 /* Config.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96BB73D2D32872C007BE3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D0B8862E3D8021008C70E9 /* Config.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B3711D2C5D7B830013612E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D0B87F2E3D7F2C008C70E9 /* Config.xcconfig in Resources */,
+				E9B01EC82DB094DF008CDD3F /* README.md in Resources */,
+				E9D0B8812E3D7F3B008C70E9 /* File.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B371A32C5D86080013612E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D0B8822E3D8021008C70E9 /* Config.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B371AF2C5D86080013612E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D0B8832E3D8021008C70E9 /* Config.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2A2A2A12F10000100000006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18023725E7CB01C6242A9E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEA2CF9263DBF24CBF3A80F /* TDSCarPlayControlsWidget.swift in Sources */,
+				B18C5CD1BC31AFFD9BDC5B3B /* ../TDS Video/TDSCarPlayControlShared.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9449D102C616C4100EE64DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96BB7302D32872C007BE3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96BB73B2D32872C007BE3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B3711B2C5D7B830013612E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B371A02C5D85D60013612E /* CarPlaySceneDelegate.swift in Sources */,
+				E9B5432B2C60EEE700BCD407 /* CustomVideoPlayerViewController.swift in Sources */,
+				E9B01ECC2DB0994B008CDD3F /* CarPlayAccess.swift in Sources */,
+				E9D5135A2D79B5D300B8A8B3 /* CarPlayViewContollerProtocal.swift in Sources */,
+				E98E7DCC2D8DF6FB008330D0 /* CustomWebViews.swift in Sources */,
+				E92F0F322DABD36700ACB85D /* CarPlaySafari.swift in Sources */,
+				E9449D252C616DAF00EE64DF /* CarplayWKWebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B371A12C5D86080013612E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B371AD2C5D86080013612E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2A2A2A12F1000010000000C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2A2A2A12F10000100000008 /* SelfAirPlayTunnel */;
+			targetProxy = A2A2A2A12F10000100000002 /* PBXContainerItemProxy */;
+		};
+		564EDD19242369F0C2A607A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TDSCarPlayControlsWidget;
+			target = 692E1E2EF14B5D649215BA8A /* TDSCarPlayControlsWidget */;
+			targetProxy = 7D4E270682EB9064EFEC4035 /* PBXContainerItemProxy */;
+		};
+		E96BB7482D32872D007BE3A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E96BB73E2D32872C007BE3A8 /* ScreenRecSetupUI */;
+			targetProxy = E96BB7472D32872D007BE3A8 /* PBXContainerItemProxy */;
+		};
+		E96BB74B2D32872D007BE3A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E96BB7332D32872C007BE3A8 /* ScreenRec */;
+			targetProxy = E96BB74A2D32872D007BE3A8 /* PBXContainerItemProxy */;
+		};
+		E9B371BC2C5D86080013612E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9B371B02C5D86080013612E /* CarplayintentUI */;
+			targetProxy = E9B371BB2C5D86080013612E /* PBXContainerItemProxy */;
+		};
+		E9B371BF2C5D86080013612E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9B371A42C5D86080013612E /* Carplayintent */;
+			targetProxy = E9B371BE2C5D86080013612E /* PBXContainerItemProxy */;
+		};
+		E9E926C32D934C5C00762912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9449D132C616C4100EE64DF /* UploadVideo */;
+			targetProxy = E9E926C22D934C5C00762912 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A2A2A2A12F1000010000000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SelfAirPlayTunnel/SelfAirPlayTunnel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SelfAirPlayTunnel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER).SelfAirPlayTunnel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2A2A2A12F1000010000000B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SelfAirPlayTunnel/SelfAirPlayTunnel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SelfAirPlayTunnel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER).SelfAirPlayTunnel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF26107432EA9AEA5B3FBCDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = TDSCarPlayControlsWidget/TDSCarPlayControlsWidget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TDSCarPlayControlsWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "CarPlay Controls";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER).TDSCarPlayControlsWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E13E807AC61F4F6A4EBEBF6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = TDSCarPlayControlsWidget/TDSCarPlayControlsWidget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TDSCarPlayControlsWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "CarPlay Controls";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER).TDSCarPlayControlsWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E9449D202C616C4100EE64DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = UploadVideo/UploadVideo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UploadVideo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UploadVideo;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER).UploadVideo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9449D212C616C4100EE64DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = UploadVideo/UploadVideo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UploadVideo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UploadVideo;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER).UploadVideo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E96BB74E2D32872D007BE3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenRecSetupUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ScreenRecSetupUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER).ScreenRecSetupUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E96BB74F2D32872D007BE3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenRecSetupUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ScreenRecSetupUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER).ScreenRecSetupUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E96BB7522D32872D007BE3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ScreenRec/ScreenRec.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenRec/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "TDS Video Stream";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER).ScreenRec";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E96BB7532D32872D007BE3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ScreenRec/ScreenRec.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenRec/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "TDS Video Stream";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER).ScreenRec";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9B371492C5D7B850013612E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = TV;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "TDS Video/TDS Video.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TDS Video/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CarCast Hub";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = test;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = t3wrt;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "TDS Video will use your location to access wifi settings to improve video preformance - is not required please deny if you would like";
+				INFOPLIST_KEY_NSMotionUsageDescription = "TDS Carplay needs access to your motion to understand when you are in a moving car";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TDS Video/TDS Video-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E9B3714A2C5D7B850013612E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = TV;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "TDS Video/TDS Video.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TDS Video/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CarCast Hub";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = test;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = t3wrt;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "TDS Video will use your location to access wifi settings to improve video preformance - is not required please deny if you would like";
+				INFOPLIST_KEY_NSMotionUsageDescription = "TDS Carplay needs access to your motion to understand when you are in a moving car";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TDS Video/TDS Video-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E9B3714C2C5D7B850013612E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = NO;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9B3714D2C5D7B850013612E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = NO;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9B371C22C5D86080013612E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CarplayintentUI/CarplayintentUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarplayintentUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CarplayintentUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER).CarplayintentUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9B371C32C5D86080013612E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CarplayintentUI/CarplayintentUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarplayintentUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CarplayintentUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER).CarplayintentUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9B371C72C5D86080013612E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Carplayintent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Carplayintent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER).Carplayintent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9B371C82C5D86080013612E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D0B87E2E3D7F2C008C70E9 /* Config.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Carplayintent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Carplayintent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER).Carplayintent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2A2A2A12F10000100000009 /* Build configuration list for PBXNativeTarget "SelfAirPlayTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A2A2A12F1000010000000A /* Debug */,
+				A2A2A2A12F1000010000000B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04FA84B6A0425A18FC1257A /* Build configuration list for PBXNativeTarget "TDSCarPlayControlsWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF26107432EA9AEA5B3FBCDF /* Release */,
+				E13E807AC61F4F6A4EBEBF6A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9449D1F2C616C4100EE64DF /* Build configuration list for PBXNativeTarget "UploadVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9449D202C616C4100EE64DF /* Debug */,
+				E9449D212C616C4100EE64DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96BB74D2D32872D007BE3A8 /* Build configuration list for PBXNativeTarget "ScreenRecSetupUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96BB74E2D32872D007BE3A8 /* Debug */,
+				E96BB74F2D32872D007BE3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96BB7512D32872D007BE3A8 /* Build configuration list for PBXNativeTarget "ScreenRec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96BB7522D32872D007BE3A8 /* Debug */,
+				E96BB7532D32872D007BE3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B3711A2C5D7B830013612E /* Build configuration list for PBXProject "TDS Video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B3714C2C5D7B850013612E /* Debug */,
+				E9B3714D2C5D7B850013612E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B371482C5D7B850013612E /* Build configuration list for PBXNativeTarget "TDS Video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B371492C5D7B850013612E /* Debug */,
+				E9B3714A2C5D7B850013612E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B371C12C5D86080013612E /* Build configuration list for PBXNativeTarget "CarplayintentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B371C22C5D86080013612E /* Debug */,
+				E9B371C32C5D86080013612E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B371C62C5D86080013612E /* Build configuration list for PBXNativeTarget "Carplayintent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B371C72C5D86080013612E /* Debug */,
+				E9B371C82C5D86080013612E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A1A1A1A12F00000100000002 /* XCRemoteSwiftPackageReference "IOS-airplay-package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thomasdye12/IOS-airplay-package.git";
+			requirement = {
+				revision = 853e2f89083017eff0f821a3abd679b38103ce1c;
+				kind = revision;
+			};
+		};
+		E9B01D3A2DAFD055008CDD3F /* XCRemoteSwiftPackageReference "swifter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/httpswift/swifter.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1A1A1A12F00000100000003 /* AirPlayReceiver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1A1A1A12F00000100000002 /* XCRemoteSwiftPackageReference "IOS-airplay-package" */;
+			productName = AirPlayReceiver;
+		};
+		E9B01D3D2DAFD0E4008CDD3F /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9B01D3A2DAFD055008CDD3F /* XCRemoteSwiftPackageReference "swifter" */;
+			productName = Swifter;
+		};
+		E9B01D402DAFD57D008CDD3F /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9B01D3A2DAFD055008CDD3F /* XCRemoteSwiftPackageReference "swifter" */;
+			productName = Swifter;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E9B371172C5D7B830013612E /* Project object */;
+}
