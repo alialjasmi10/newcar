@@ -1,0 +1,39 @@
+name: Build CarCast Hub unsigned IPA
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: carcast-build-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 60
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_26.3.app/Contents/Developer
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check pinned Xcode
+        run: |
+          test -d "$DEVELOPER_DIR" || { echo 'Xcode 26.3 is no longer installed on this runner. Review the runner image before changing the workflow.'; exit 1; }
+          xcodebuild -version
+      - name: Build device app and unsigned IPA
+        run: bash scripts/build-unsigned.sh
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: CarCastHub-unsigned
+          path: |
+            build/CarCastHub-unsigned.ipa
+            build/CarCastHub-unsigned.ipa.sha256
+          if-no-files-found: error
+          retention-days: 7
+      - name: Upload build logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: CarCastHub-build-logs
+          path: build/logs/
+          if-no-files-found: warn
+          retention-days: 7
