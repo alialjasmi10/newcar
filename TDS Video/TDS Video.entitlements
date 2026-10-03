@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>webcredentials:auth.thomasdye.net</string>
+	</array>
+	<key>com.apple.developer.carplay-calling</key>
+	<true/>
+	<key>com.apple.developer.carplay-charging</key>
+	<true/>
+	<key>com.apple.developer.carplay-communication</key>
+	<true/>
+	<key>com.apple.developer.carplay-driving-task</key>
+	<true/>
+	<key>com.apple.developer.carplay-maps</key>
+	<true/>
+	<key>com.apple.developer.carplay-messaging</key>
+	<true/>
+	<key>com.apple.developer.carplay-voice-based-conversation</key>
+	<true/>
+	<key>com.apple.developer.kernel.increased-memory-limit</key>
+	<true/>
+	<key>com.apple.developer.networking.networkextension</key>
+	<array>
+		<string>packet-tunnel-provider</string>
+	</array>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.ali.carcasthub.auth</string>
+		<string>group.com.ali.carcasthub.shared</string>
+	</array>
+	<key>keychain-access-groups</key>
+	<array/>
+</dict>
+</plist>
